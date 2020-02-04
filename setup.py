@@ -24,7 +24,7 @@ and is distributed under the MIT license.
 '''
 
 setup(name='Keras',
-      version='2.2.4',
+      version='2.8',
       description='Deep Learning for humans',
       long_description=long_description,
       author='Francois Chollet',
@@ -49,6 +49,12 @@ setup(name='Keras',
                     'pandas',
                     'requests'],
       },
+      install_suggestions={
+             [pip],[pip3]
+            #use pip to install dependesies..
+            'Download':['pip install framework'],
+             'Upgrade':['pip install upgrade framework'],
+        
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Intended Audience :: Developers',
